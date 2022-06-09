@@ -1,0 +1,37 @@
+plugins {
+	id 'org.springframework.boot' version '2.7.0'
+	id 'io.spring.dependency-management' version '1.0.11.RELEASE'
+	id 'java'
+}
+
+//configurations {
+// testCompile
+//}
+
+group = 'com.jennie'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '1.8'
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+	implementation 'org.springframework.boot:spring-boot-starter-web'
+	implementation 'junit:junit:4.13.1'
+	implementation 'org.testng:testng:7.1.0'
+	testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
+	testImplementation 'org.apache.httpcomponents:httpclient'
+	testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
+	runtimeOnly 'org.postgresql:postgresql'
+// runtimeOnly 'com.h2database:h2'
+// testImplementation 'org.springframework.boot:spring-boot-starter-test'
+// testCompile 'org.junit.jupiter:junit-jupiter-engine:5.2.0'
+// testCompile('org.mockito:mockito-junit-jupiter:2.23.0')
+// testCompile 'org.assertj:assertj-core:3.11.1'
+}
+
+test {
+	useJUnitPlatform()
+}
