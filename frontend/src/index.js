@@ -190,10 +190,10 @@ const ItemEntry = () => {
                           Name A-Z
                       </option>
                       <option value="qa">
-                          Quantity �$B",�(B
+                          Quantity ↑
                       </option>
                       <option value="qd">
-                          Quantity �$B"-�(B
+                          Quantity ↓
                       </option>
                   </select>
               </div>
