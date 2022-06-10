@@ -24,7 +24,8 @@ Now it's all set up!
 
 ## Features:
   * add and update items
-  * remove items, but you can't remove more than you already have
+  * remove items
+  * validation checks
   * sort in various ways
   * clear the database
 
