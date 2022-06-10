@@ -14,7 +14,7 @@
   psql postgres
     CREATE USER {user}
     CREATE DATABASE pantry
-    GRANT ALL PRIVILEGES ON DATABASE pantry to {user}
+    GRANT ALL PRIVILEGES ON DATABASE pantry TO {user}
   # to see database in terminal (or use Postman)
   SELECT * FROM pantry 
 ```
