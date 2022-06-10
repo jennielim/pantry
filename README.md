@@ -21,7 +21,7 @@ In the application.properties file (backend -> src -> main -> resources) alter t
 Now it's all set up! 
 
 ## Features:
-  * add items
+  * add and update items
   * remove items, but you can't remove more than you already have
   * sort in various ways
   * clear the database
