@@ -1,6 +1,10 @@
 # Pantry
 
-![Image of User Interface](/example.jpg)
+<p align="center">
+  <img width="460" height="300" src="/example.jpg">
+</p>
+
+<!-- ![Image of User Interface](/example.jpg) -->
 
 ## To run:
   * Clone this repository
