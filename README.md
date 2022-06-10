@@ -1,4 +1,7 @@
 # Pantry
+
+![Image of User Interface](/example.jpg)
+
 ## To run:
   * Clone this repository
   * Open the frontend folder in a text editor (like VS Code) and run it with "npm start"
